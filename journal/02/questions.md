@@ -1,15 +1,20 @@
 # Intro to JavaScript
 01. Which keywords are used to declare a variable in JavaScript?
 
-    > | ANSWER HERE |
+    > var, let and const.
 
 02. What is the definition of a function?
 
-    > | ANSWER HERE |
+    > It's a subprogram, or a something to call within your program that does a task.
 
 03. What are the `SOLID` principles?
 
-    > | ANSWER HERE |
+    > SOLID principles allow us to write more maintainable and scalable code in object oriented programming. Meaning we can easily fix or add to our code without introducing new bugs.
+    > S - Single responsibility 
+    > O - Open/Closed principle
+    > L - Listov Substituion 
+    > I - Interface segregation
+    > D - Dependency inversion
 
 04. Given this array: How could you remove the `pineapple`?
 
@@ -17,7 +22,7 @@
     let fruit = ['apple', 'banana', 'pineapple', 'orange', 'strawberry']
     ```
 
-    > | ANSWER HERE |
+    > fruit.splice(indexOf('pineapple'), 1);
 
 05. Given these two objects: How could you add each to the others friends arrays?
 
@@ -34,24 +39,27 @@
     }
     ```
 
-    > | ANSWER HERE |
+    > you.friends.push(them)
+    > them.friends.push(you)
 
 06. Give an example of a JavaScript `Conditional`:
 
-    > | ANSWER HERE |
+    > an if statement is an example of a conditional
 
 07. What is the main difference between `parameters` and `arguments`?
 
-    > | ANSWER HERE |
+    > When definining a function's signature, the variables defined within the parentheses in that signature are the parameters. When calling a function, the variables passed into that call are the arguments.
 
 08. Instead of writing everything to the console, what is a better way to debug your code?
 
-    > | ANSWER HERE |
+    > Using dev tools within Chrome, you can use the debugger which allows you to add breakpoints which can stop the code at the defined breakpoint.
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > | ANSWER HERE |
+    > A primitive value is a raw value of any primitive type, such as `1`, `true`, and `'string'`. Where as a reference value is typically a named variable that refers to where information is stored but is not the raw value of the reference.
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
-    > | ANSWER HERE |
+    > `for (let i = -100; i < 101; i++){`
+    > ` console.log(i)`
+    > `}`  
