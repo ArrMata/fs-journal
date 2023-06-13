@@ -56,7 +56,7 @@
 
 09. What is the difference between a `primitive` value and a `reference` value?
 
-    > A primitive value is a raw value of any primitive type, such as `1`, `true`, and `'string'`. Where as a reference value is typically a named variable that refers to where information is stored but is not the raw value of the reference.
+    > The difference between a primitive and reference value is that when assigning a variable to a primitive value, you can manipulate that variable without affecting the original value. While when doing it with reference values, if you were to change that value it would change the original.
 
 10. Demonstrate a loop that prints the numbers between -100 and 100?
 
