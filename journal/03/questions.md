@@ -17,7 +17,7 @@
 
 05. What the difference between a `class` and an instance of a `class`?
   
-  > | ANSWER HERE |
+  > Class acts more as a blueprint, rather than an instance of a class is a single built version of that class blueprint.
 
 06. What is a computed Property?
   
@@ -29,12 +29,12 @@
 
 08. What is the job of the `Controller` in the `MVC` Pattern?
   
-  > | ANSWER HERE |
+  > Controller is meant to both update the view and to notify the service to update the model.
 
 09. What is the job of the `Service` in `MVC`?
   
-  > | ANSWER HERE |
+  > The service directly interacts and updates the model.
 
 10. What is the job of the `Model` in `MVC`?
   
-  > | ANSWER HERE |
+  > The model stores our data and acts as the one true source of all our data
