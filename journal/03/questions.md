@@ -1,19 +1,19 @@
 # Application Architecture, MVC Design Pattern
 01. What are the Pillars of Object Oriented Programming (`OOP`)?
   
-  > | ANSWER HERE |
+  > Foundationsof OOP is encapsulation and message passing.
 
 02. How does `export` differ from `export default`?
   
-  > | ANSWER HERE |
+  > Export default differs from export since if you were to import default values, `import math from ./xyz.js`, it will only be able to do that if you export default.
 
 03. What is Encapsulation?
   
-  > | ANSWER HERE |
+  > Encapsulation is grouping our data and how to manipulate our data so that we can choose what we specifically want to make public so our data and how's manipulated stays private and predictable.
 
 04. What are some of the benefits of the `Proxy` object that we are using in our structure for applications?
   
-  > | ANSWER HERE |
+  > The benefits of the Proxy object allows us to add functionality to existing on some basic operations for an Object class. Specifically for our applications, we can create private variables or allow only specific types to be set within our object.
 
 05. What the difference between a `class` and an instance of a `class`?
   
@@ -21,11 +21,11 @@
 
 06. What is a computed Property?
   
-  > | ANSWER HERE |
+  > A computed Property allows us to set the names of property names with expressions
 
 07. What is the purpose of the `MVC` pattern?
   
-  > | ANSWER HERE |
+  > The purpose of the MVC design pattern, and design patterns in general, is to provide a structure/framework to where and how you write code. When you have that framework, it's easier to scale up the project without breaking many parts of existing code.
 
 08. What is the job of the `Controller` in the `MVC` Pattern?
   
@@ -37,4 +37,4 @@
 
 10. What is the job of the `Model` in `MVC`?
   
-  > The model stores our data and acts as the one true source of all our data
+  > Models within MVC act as our blueprint for how we want our data to be structured.
