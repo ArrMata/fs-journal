@@ -21,7 +21,7 @@
 
 06. What is a computed Property?
   
-  > A computed Property allows us to set the names of property names with expressions
+  > A computed Property is a similar to a typical getting within a class, expect we computed on it beforehand, meaning that we can format/adjust the property as needed before we return it.
 
 07. What is the purpose of the `MVC` pattern?
   
