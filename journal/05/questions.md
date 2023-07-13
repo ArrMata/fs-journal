@@ -25,11 +25,11 @@
 
 07. What is middleware?
 
-  > Middleware is software that essentially acts as a bridge between two existing pieces of software allowing them to now interact with each other, or interact more efficiently.
+  > Middleware, for what we've been using it for, allows us to handle our requests objects before we interact with them with other backend code. Specifically we've been using the Auth0 Authprovider to add the userInfo to our request objects.
 
 08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 
-  > | ANSWER HERE |
+  > 1: Client 2: Server
 
 09. Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 
@@ -37,4 +37,4 @@
 
 10. What is a ***virtual property***?
 
-  > Virtual properties are additional getters and setters that we can create that allow us to have additional functionality built into those getters and setters.
+  > Virtual properties are additional getters and setters that we can create that allow us to have additional functionality built into those getters and setters. With that additonal functionality, we can use these virutals to also search through our collections in MongoDB and append that item onto the object with the virutal property.
