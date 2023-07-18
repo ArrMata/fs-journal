@@ -32,7 +32,7 @@
 
 09. What are ***props*** and how are they used? Provide an example
 
-  > Props are pieces of data that a component can pass down to other components like a page to a component within it. Example would be if a Person component needs a name and age it would look like <Person name="Mason" :age="25" />
+  > Props are pieces of data that a component can pass down to other components like a page to a component within it. Example would be if a Person component needs a name and age it would look like <Person :name="Mason" :age="25" />
 
 10. What is the Vue method used to create watchable objects such as `state` or `AppState`?
 
