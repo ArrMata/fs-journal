@@ -9,7 +9,7 @@
 
 03. What is ***Component-Based Architecture***?
 
-  > It's the concept of splitting up many piees of UI into reusuable pieces that each can be edited on their own.
+  > It's the concept of splitting up many piees of UI into reusuable pieces that each can be edited on their own and reused within each other.
 
 04. What are the three tags that make up a Vue component?
 
