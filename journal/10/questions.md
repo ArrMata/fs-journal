@@ -13,7 +13,7 @@
 
 04. No question 4 provided?
 
-  >There was no question here, I didn't delete the question to sneak by!
+  > There was no question here, I didn't delete the question to sneak by!
 
 05. In the Car example what is the access modifier of the `Start()` method?
 
@@ -56,4 +56,9 @@
 
 10. In SQL how can you query more than a single table? Provide an example.
 
-  > | ANSWER HERE |
+  > We can use SELECT and FROM to query multiple tables shown below, where we get the class name and instructor name from both the classes and instructors table.
+  ```
+  SELECT class.name, instructor.name,
+  FROM classes, instructors
+  WHERE class.instructor = instructor.name
+  ```
