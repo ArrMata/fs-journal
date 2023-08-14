@@ -2,7 +2,7 @@
 
 1. Describe the two ways to bind Data in Vue?
 
-  > | ANSWER HERE |
+  > We can use either double curly braces wrapping a variable, and using v-model to 2 way bind a variables data.
 
 2. The `SPA` acronym stands for what?
 
@@ -34,4 +34,4 @@
 
 9. What is the `<slot>` element and what is it used for?
 
-  > | ANSWER HERE |
+  > The slot element is used to inject HTML into the where the slot is defined. Like injecting different forms within a Modal component, the form we choose to inject goes where the slot element is defined.

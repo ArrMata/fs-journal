@@ -9,7 +9,7 @@
 
 03. What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 
-  > Object Relational Mapping, we use Mongoose as our ORM.
+  > Object Relational Mapper, we use Mongoose as our ORM.
 
 04. Which two `HTTP` request types include a body?
 
@@ -29,7 +29,7 @@
 
 08. The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 
-  > 1: Client 2: Server
+  > 1: Request 2: Response
 
 09. Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 
