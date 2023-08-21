@@ -47,10 +47,10 @@
 
   ```
   CREATE TABLE characters(
-    id int NOT NULL,
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
     name VARCHAR(255) NOT NULL,
     description VARCHAR(255),
-    age int,
+    age INT,
   )
   ```
 
